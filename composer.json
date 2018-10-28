@@ -1,0 +1,24 @@
+{
+  "name": "bytic/phpqaconfig",
+  "description": "Meta package for configuration files for PHP QA tools",
+  "type": "library",
+  "keywords": [
+    "php",
+    "qa", "quality", "code quality",
+    "stylecheck", "unittest"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Solomon Gabriel",
+      "email": "hello@gabrielsolomon.ro",
+      "homepage": "http://gabrielsolomon.ro",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6,<8.0-dev",
+  },
+  "suggest": {
+  }
+}
