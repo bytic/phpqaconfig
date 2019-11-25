@@ -29,3 +29,11 @@ Configuration file: *bytic.phpcs.xml*
         </rule>
     </ruleset>
     ```
+   
+   
+   
+   
+Inspiration
+----------------
+* https://github.com/jmolivas/phpqa
+
