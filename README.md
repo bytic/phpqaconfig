@@ -36,4 +36,6 @@ Configuration file: *bytic.phpcs.xml*
 Inspiration
 ----------------
 * https://github.com/jmolivas/phpqa
+* https://github.com/Dealerdirect/php-qa-tools
+* https://github.com/lovullo/phpqaconfig
 
