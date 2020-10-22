@@ -37,5 +37,5 @@ Inspiration
 ----------------
 * https://github.com/jmolivas/phpqa
 * https://github.com/Dealerdirect/php-qa-tools
-* https://github.com/lovullo/phpqaconfig
+* https://github.com/lovullo/phpqatools
 
