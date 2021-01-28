@@ -1,3 +1,4 @@
 #!/usr/bin/env php
 <?php
-//exec `cp vendor/bytic/qaconfig/config/phprcs.xml ./phprcs.xml`;
+
+exec `cp vendor/bytic/qaconfig/config/psalm.xml ./psalm.xml`;
