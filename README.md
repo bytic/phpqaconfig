@@ -38,4 +38,4 @@ Inspiration
 * https://github.com/jmolivas/phpqa
 * https://github.com/Dealerdirect/php-qa-tools
 * https://github.com/lovullo/phpqatools
-
+* https://github.com/ramsey/coding-standard
