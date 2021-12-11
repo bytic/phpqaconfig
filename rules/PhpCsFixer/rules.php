@@ -1,8 +1,8 @@
 <?php
 
 return [
-    '@PSR2' => true,
     '@Symfony' => true,
+    '@PHP80MigrationRiskySet' => true,
     '@PHP80Migration' => true,
-    'array_syntax' => ['syntax' => 'short'],
+    '@PHP81Migration' => true,
 ];
