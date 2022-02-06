@@ -1,0 +1,10 @@
+
+parameters:
+    level: 6
+
+    tipsOfTheDay: false
+    treatPhpDocTypesAsCertain: false
+
+parametersSchema:
+
+conditionalTags:
