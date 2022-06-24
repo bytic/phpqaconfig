@@ -39,3 +39,4 @@ Inspiration
 * https://github.com/Dealerdirect/php-qa-tools
 * https://github.com/lovullo/phpqatools
 * https://github.com/ramsey/coding-standard
+* https://github.com/endroid/quality
