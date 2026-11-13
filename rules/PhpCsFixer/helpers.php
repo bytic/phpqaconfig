@@ -1,11 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Bytic\Phpqa\PhpCsFixer;
 
 use PhpCsFixer\Config;
 use PhpCsFixer\Finder;
 
-function finder($paths = []): Finder
+function finder(array $paths = []): Finder
 {
     return Finder::create()
         ->in($paths)

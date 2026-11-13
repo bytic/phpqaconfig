@@ -1,5 +1,19 @@
 #!/usr/bin/env php
 <?php
 
-exec `cp vendor/bytic/qaconfig/config/psalm.xml ./psalm.xml`;
-exec `cp vendor/bytic/qaconfig/config/.php-cs-fixer.dist.php ./.php-cs-fixer.dist.php`;
+declare(strict_types=1);
+
+$configDirectory = dirname(__DIR__) . '/config';
+$files = [
+    'psalm.xml' => 'psalm.xml',
+    '.php-cs-fixer.dist.php' => '.php-cs-fixer.dist.php',
+];
+
+foreach ($files as $source => $destination) {
+    $sourcePath = $configDirectory . '/' . $source;
+
+    if (!copy($sourcePath, getcwd() . '/' . $destination)) {
+        fwrite(STDERR, sprintf("Unable to copy %s to the current directory.\n", $source));
+        exit(1);
+    }
+}
