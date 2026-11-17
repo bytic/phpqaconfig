@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 /**
  * @inspiration https://github.com/sonata-project/SonataPageBundle/blob/3.x/.php-cs-fixer.dist.php
@@ -9,9 +8,12 @@ declare(strict_types=1);
  * @inspiration https://github.com/magento/magento2/blob/2.4-develop/.php-cs-fixer.dist.php
  * @inspiration https://github.com/sonata-project/SonataAdminBundle/blob/4.x/.php-cs-fixer.dist.php
  */
+
+declare(strict_types=1);
+
 return [
-    '@PHP80Migration' => true,
-    '@PHP81Migration' => true,
+    '@PHP8x0Migration' => true,
+    '@PHP8x1Migration' => true,
 
     '@PSR12' => true,
     '@PSR12:risky' => true,
